@@ -12,6 +12,7 @@ function App() {
   const refCon=useRef(null);
   const [state,setState]=useState(false);
   
+  
   const setHeight = (toggle) => {
     setState(!state);
     // console.log("asss")
@@ -32,7 +33,9 @@ function App() {
              refContainer.current.style.height=`0px`
        }
 
-    refCon.current.style=`${K}px`      
+    refCon.current.style=`${K}px`     
+    // console.log(K)
+
 
       
   },[state])

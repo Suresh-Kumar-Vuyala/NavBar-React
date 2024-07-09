@@ -157,6 +157,9 @@ ul{
     display:flex;
     align-items:center;
   }
+  ul{
+    height:auto;
+  }
   #change:hover{
     color: var(--clr-primary-4);
     transform: rotate(90deg);
@@ -170,11 +173,12 @@ ul{
     height:auto;
     overflow:hidden;
     transition: all 0.3s linear;
-    display:flex;
+    
 
   }
   ul{
     width:100%;
-    height:100%;
+    height:auto;
+    
   }
  }
